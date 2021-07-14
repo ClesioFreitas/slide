@@ -196,8 +196,5 @@ export class SlideNav extends Slide {
     this.controlArray.forEach(this.eventControl);
   }
 
-  bindControlEvents ( ) {
-    this.eventControl = this.eventControl.bind(this);
-    this.activeControlItem = this.activeControlItem.bind(this);
-  }
+
 }
